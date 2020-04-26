@@ -14,7 +14,7 @@ npm install npm-fetch-meta-data
 const { getNPMMetaData } = require('npm-fetch-meta-data');
 const options = {
     packageName: PACKAGE_NAME,  // REQUIRED --> ex: axios
-    registry: REGISTRY_NAME, // OPTOINAL --> defaults to https://registry.npmjs.org/
+    registry: REGISTRY_NAME, // OPTIONAL --> defaults to https://registry.npmjs.org/
   };
 
 const metaData = await getNPMMetaData(options);

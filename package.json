@@ -1,6 +1,6 @@
 {
   "name": "npm-fetch-meta-data",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Fetch metadata about any NPM package",
   "main": "index.js",
   "scripts": {
