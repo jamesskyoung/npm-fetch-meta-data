@@ -46,7 +46,7 @@ If a package is not found the AXIOS error object is returned... (Generally a 404
 
 ```bash
 cd examples
-node index.js cookie-parser
+node index.js npm-fetch-meta-data
 ```
 This will yield
 ```bash
